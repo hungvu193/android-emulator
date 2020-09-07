@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+drawable file
+drawable file_audio
+drawable file_compressed
+drawable file_image
+drawable file_plain_text
+drawable file_video
+drawable folder
+id file_path_text_view
+id file_picker_checkbox
+id file_picker_image
+id file_picker_text
+id ok
+id start_file_picker_button
+layout file_picker_empty_view
+layout file_picker_list_item
+layout list_holder
+layout main
+string app_name

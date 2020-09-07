@@ -1,0 +1,6 @@
+<resources>
+
+    
+    <string name="help_cheats">$There are two types of cheats you can use in this app: Game Genie and Game Shark cheats. You can find cheats for a number of games at &lt;a href="http://gamehacking.org/?sys=gbc">http://gamehacking.org&lt;/a> or &lt;a href="http://www.gamegenie.com/cheats/gameshark/gbcolor/index.html">http://gamegenie.com&lt;/a>. The allowed patterns are HHH-HHH-HHH for Game Genie, and 01HHHHHH for Game Shark.</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#33b5e5</color>
+    <color name="dialog_main_color">#ffffff</color>
+    <color name="dialog_surround_color">#bb000000</color>    
+    <color name="select_bck_color">#2233b5e5</color>
+    <color name="press_bck_color">#8833b5e5</color>   
+    <color name="ads_color">#fffccc00</color>
+    <color name="hint_bck_color">#db33b5e5</color>    
+     
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nostalgiaemulators.gg"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <application
+        android:name="com.nostalgiaemulators.gg.GGApplication"
+        tools:ignore="AllowBackup">
+
+        <meta-data android:name="android.max_aspect"
+            android:value="2.1"/>
+
+        <meta-data
+            android:name="svnversion"
+            android:value="@string/svn_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_app_id" />
+
+        <activity
+            android:name="com.nostalgiaemulators.gg.GGGalleryActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            tools:replace="android:label"
+            android:name="com.nostalgiaemulators.gg.GGEmulatorActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+
+        <!--
+        <activity
+            android:name="com.nostalgiaemulators.nes.NesLiteExportActivity"
+            android:label="Nostalgia.NES" >
+            <intent-filter>
+                <action android:name="com.nostalgiaemulators.nesfull.EXPORT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            tools:replace="android:label"
+            android:name="com.nostalgiaemulators.gg.GGSlotImportActivity"
+            android:label="Slot import" >
+
+            <!-- otevirani z filesystemu -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:scheme="file" />
+                <data android:pathPattern=".*\\.nggs" />
+            </intent-filter>
+
+            <!-- otevirani z webu -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:scheme="http" />
+                <data android:pathPattern=".*\\.nggs" />
+            </intent-filter>
+
+            <!-- otevirani z email programu -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/vnd.ggnostalgia" />
+                <data android:host="*" />
+                <data android:scheme="content" />
+            </intent-filter>
+
+            <!-- otevirani ze zprasenejch email klientu kteri likviduji mimetype na octet-stream -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/octet-stream" />
+                <data android:host="*" />
+                <data android:scheme="content" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

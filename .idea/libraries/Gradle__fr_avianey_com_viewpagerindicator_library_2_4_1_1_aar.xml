@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a17aa08f7060f81c66e8df94b1245a2c/jetified-library-2.4.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a17aa08f7060f81c66e8df94b1245a2c/jetified-library-2.4.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a17aa08f7060f81c66e8df94b1245a2c/jetified-library-2.4.1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.avianey.com.viewpagerindicator/library/2.4.1.1/f6d78a1af9e3a7c7a84bac64c6c549698730c30a/library-2.4.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.avianey.com.viewpagerindicator/library/2.4.1.1/7bad9a715d068b6768ce7ef8dadd8b72e9f345c9/library-2.4.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

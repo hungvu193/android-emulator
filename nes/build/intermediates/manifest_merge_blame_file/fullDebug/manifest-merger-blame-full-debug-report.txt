@@ -1,0 +1,391 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nostalgiaemulators.nesfull"
+4    android:versionCode="111"
+5    android:versionName="2.0.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-16:36
+12        android:glEsVersion="0x00020000"
+12-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-41
+13        android:required="false" />
+13-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
+14    <!--
+15         Toto zde byt musi. Aby byla aplikace dostupna pro TV je zapotrebi explicitne deklarovat ze nevyzadujeme
+16    	touchscreen
+17    -->
+18    <uses-feature
+18-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:5-24:36
+19        android:name="android.hardware.touchscreen"
+19-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-52
+20        android:required="false" /> <!-- romy jsou na SD karte -->
+20-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-33
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- to je jasne -->
+21-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-81
+21-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-78
+22    <uses-permission android:name="android.permission.VIBRATE" /> <!-- kvuli reklamam a socialnim sitim -->
+22-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-66
+22-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:22-63
+23    <uses-permission android:name="android.permission.INTERNET" /> <!-- kvuli reklamam a remote controleru -->
+23-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-67
+23-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:22-64
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- kdyz clovek hraje tak se nezamyka obrazovka na zamek ale jen zhasne -->
+24-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-76
+24-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-73
+25    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> <!-- kvuli reklamam -->
+25-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-75
+25-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:22-72
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- behem hry se neuspava -->
+26-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:5-79
+26-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:22-76
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-68
+27-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:22-65
+28
+29    <application
+29-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:6:5-87:19
+30        android:name="com.nostalgiaemulators.nes.NesApplication"
+30-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:6:18-74
+31        android:allowBackup="true"
+31-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-43
+35        android:label="@string/app_name"
+35-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-41
+36        android:largeHeap="true"
+36-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-33
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-40
+39        <meta-data
+39-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:9:9-11:35
+40            android:name="android.max_aspect"
+40-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:10:13-46
+41            android:value="2.1" />
+41-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:11:13-32
+42        <meta-data
+42-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:13:9-15:51
+43            android:name="svnversion"
+43-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:14:13-38
+44            android:value="@string/svn_version" />
+44-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:15:13-48
+45        <meta-data
+45-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:17:9-19:49
+46            android:name="com.facebook.sdk.ApplicationId"
+46-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:18:13-58
+47            android:value="@string/fb_app_id" />
+47-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:19:13-46
+48
+49        <activity
+49-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:21:9-28:20
+50            android:name="com.nostalgiaemulators.nes.NesGalleryActivity"
+50-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:22:13-73
+51            android:label="@string/title_activity_main" >
+51-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:23:13-56
+52            <intent-filter>
+52-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:24:13-27:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:25:17-69
+53-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:25:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:26:17-77
+55-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:26:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:30:9-35:20
+59            android:name="com.nostalgiaemulators.nes.NesEmulatorActivity"
+59-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:31:13-74
+60            android:label="@string/app_name" >
+60-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:32:13-45
+61        </activity>
+62        <activity
+62-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:37:9-85:20
+63            android:name="com.nostalgiaemulators.nes.NesSlotImportActivity"
+63-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:38:13-76
+64            android:label="Slot import" >
+64-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:39:13-40
+65
+66            <!-- otevirani z filesystemu -->
+67            <intent-filter>
+67-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:43:13-51:29
+68                <action android:name="android.intent.action.VIEW" />
+68-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:17-69
+68-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:17-76
+70-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:27-73
+71
+72                <data android:mimeType="*/*" />
+72-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+72-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:23-45
+73                <data android:host="*" />
+73-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+73-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:48:23-39
+74                <data android:scheme="file" />
+74-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+74-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:49:23-44
+75                <data android:pathPattern=".*\\.nness" />
+75-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+75-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:50:23-55
+76            </intent-filter>
+77
+78            <!-- otevirani z webu -->
+79            <intent-filter>
+79-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:54:13-62:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:17-69
+80-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:25-66
+81
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:56:17-78
+82-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:56:27-75
+83
+84                <data android:mimeType="*/*" />
+84-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+84-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:23-45
+85                <data android:host="*" />
+85-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+85-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:48:23-39
+86                <data android:scheme="http" />
+86-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+86-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:49:23-44
+87                <data android:pathPattern=".*\\.nness" />
+87-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+87-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:50:23-55
+88            </intent-filter>
+89
+90            <!-- otevirani z email programu -->
+91            <intent-filter>
+91-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:65:13-73:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:17-69
+92-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:17-76
+94-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:27-73
+95
+96                <data android:mimeType="application/vnd.nesnostalgia" />
+96-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+96-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:23-45
+97                <data android:host="*" />
+97-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+97-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:48:23-39
+98                <data android:scheme="content" />
+98-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+98-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:49:23-44
+99            </intent-filter>
+100
+101            <!-- otevirani ze zprasenejch email klientu kteri likviduji mimetype na octet-stream -->
+102            <intent-filter>
+102-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:76:13-84:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:17-69
+103-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:17-76
+105-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:27-73
+106
+107                <data android:mimeType="application/octet-stream" />
+107-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+107-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:23-45
+108                <data android:host="*" />
+108-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+108-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:48:23-39
+109                <data android:scheme="content" />
+109-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+109-->/Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:49:23-44
+110            </intent-filter>
+111        </activity>
+112
+113        <provider
+113-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-58:20
+114            android:name="androidx.core.content.FileProvider"
+114-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-62
+115            android:authorities="com.nostalgiaemulators.nesfull.provider"
+115-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-60
+116            android:exported="false"
+116-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-37
+117            android:grantUriPermissions="true" >
+117-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-47
+118            <meta-data
+118-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-57:53
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-67
+120                android:resource="@xml/filepaths" />
+120-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:17-50
+121        </provider>
+122
+123        <uses-library
+123-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:40
+124            android:name="org.apache.http.legacy"
+124-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-50
+125            android:required="false" /> <!-- <activity -->
+125-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-37
+126        <!-- android:name="com.nostalgiaemulators.framework.ui.gamegallery.GalleryActivity" -->
+127        <!-- android:label="@string/app_name" > -->
+128        <!-- </activity> -->
+129        <activity
+129-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:9-70:48
+130            android:name="com.nostalgiaemulators.framework.ui.gamegallery.SlotSelectionActivity"
+130-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-97
+131            android:label="@string/app_name" />
+131-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-45
+132        <activity
+132-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:9-75:45
+133            android:name="com.nostalgiaemulators.framework.base.OpenGLTestActivity"
+133-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:13-84
+134            android:exported="false"
+134-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-37
+135            android:label="@string/app_name" />
+135-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-45
+136        <activity
+136-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:9-82:45
+137            android:name="com.nostalgiaemulators.framework.base.RestarterActivity"
+137-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-83
+138            android:configChanges="orientation|screenSize"
+138-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-59
+139            android:exported="false"
+139-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-37
+140            android:label="@string/app_name"
+140-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:13-45
+141            android:process=":restarter" />
+141-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:13-41
+142        <activity
+142-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:9-86:48
+143            android:name="com.nostalgiaemulators.framework.ui.advertising.AppWallActivity"
+143-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-91
+144            android:exported="false"
+144-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:13-37
+145            android:label="@string/app_name" />
+145-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:13-45
+146        <activity
+146-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:9-91:45
+147            android:name="com.nostalgiaemulators.framework.ui.remotecontroller.RemoteControllerActivity"
+147-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:13-105
+148            android:label="Remote controller"
+148-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:13-46
+149            android:screenOrientation="landscape" /> <!-- <activity -->
+149-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-50
+150        <!-- tools:replace="android:label" -->
+151        <!-- android:name="com.nostalgiaemulators.framework.ui.gamegallery.SlotSelectionActivity" -->
+152        <!-- android:label="Select slot" /> -->
+153        <activity
+153-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:98:9-102:45
+154            android:name="com.nostalgiaemulators.framework.ui.preferences.GeneralPreferenceActivity"
+154-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:99:13-101
+155            android:label="@string/general_pref"
+155-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:100:13-49
+156            android:theme="@style/PrefTheme" />
+156-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:101:13-45
+157        <activity
+157-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:103:9-107:45
+158            android:name="com.nostalgiaemulators.framework.ui.preferences.GamePreferenceActivity"
+158-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:104:13-98
+159            android:label="@string/game_pref"
+159-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:105:13-46
+160            android:theme="@style/PrefTheme" />
+160-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:106:13-45
+161        <activity
+161-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:108:9-112:45
+162            android:name="com.nostalgiaemulators.framework.ui.preferences.KeyboardSettingsActivity"
+162-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:109:13-100
+163            android:label="@string/key_pref"
+163-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:110:13-45
+164            android:theme="@style/PrefTheme" />
+164-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:111:13-45
+165        <activity
+165-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:113:9-116:45
+166            android:name="com.nostalgiaemulators.framework.ui.cheats.CheatsActivity"
+166-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:114:13-85
+167            android:label="Cheats" />
+167-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:115:13-35
+168        <activity
+168-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:117:9-120:45
+169            android:name="com.nostalgiaemulators.framework.ui.social_net.FacebookPictureActivity"
+169-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:118:13-98
+170            android:label="FB" />
+170-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:119:13-31
+171        <activity
+171-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:121:9-124:45
+172            android:name="com.nostalgiaemulators.framework.ui.preferences.TouchControllerSettingsActivity"
+172-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:122:13-107
+173            android:label="@string/game_pref" />
+173-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:123:13-46
+174        <activity
+174-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:125:9-128:49
+175            android:name="com.nostalgiaemulators.framework.ui.preferences.ScreenViewPortSettingsActivity"
+175-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:126:13-106
+176            android:exported="false"
+176-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:127:13-37
+177            android:label="@string/game_pref" /> <!-- Aktivity tretich stran -->
+177-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:128:13-46
+178        <activity android:name="com.coderplus.filepicker.FilePickerActivity" />
+178-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:131:9-80
+178-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:131:19-77
+179        <activity
+179-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:132:9-137:59
+180            android:name="org.acra.CrashReportDialog"
+180-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:133:13-54
+181            android:excludeFromRecents="true"
+181-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:134:13-46
+182            android:finishOnTaskLaunch="true"
+182-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:135:13-46
+183            android:launchMode="singleInstance"
+183-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:136:13-48
+184            android:theme="@android:style/Theme.Dialog" />
+184-->[:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:137:13-56
+185        <activity
+185-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:28:9-34:59
+186            android:name="org.acra.dialog.CrashReportDialog"
+186-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:29:13-61
+187            android:excludeFromRecents="true"
+187-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:30:13-46
+188            android:finishOnTaskLaunch="true"
+188-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:31:13-46
+189            android:launchMode="singleInstance"
+189-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:32:13-48
+190            android:process=":acra"
+190-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:33:13-36
+191            android:theme="@android:style/Theme.Dialog" />
+191-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:34:13-56
+192
+193        <service
+193-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:36:9-40:39
+194            android:name="org.acra.sender.SenderService"
+194-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:37:13-57
+195            android:exported="false"
+195-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:38:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE"
+196-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:39:13-69
+197            android:process=":acra" />
+197-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:40:13-36
+198
+199        <provider
+199-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:42:9-47:39
+200            android:name="org.acra.attachment.AcraContentProvider"
+200-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:43:13-67
+201            android:authorities="com.nostalgiaemulators.nesfull.acra"
+201-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:44:13-56
+202            android:exported="false"
+202-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:45:13-37
+203            android:grantUriPermissions="true"
+203-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:46:13-47
+204            android:process=":acra" />
+204-->[ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:47:13-36
+205    </application>
+206
+207</manifest>

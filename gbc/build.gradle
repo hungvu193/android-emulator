@@ -1,0 +1,122 @@
+apply plugin: 'com.android.application'
+
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('sign.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+android {
+    compileSdkVersion 28
+    flavorDimensions "default"
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+
+    }
+
+
+    defaultConfig {
+        applicationId "com.nostalgiaemulators.gbc"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 111
+        versionName "2.0.9"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+//        ndk {
+//            // Specifies the ABI configurations of your native
+//            // libraries Gradle should build and package with your APK.
+//            abiFilters 'arm64-v8a', 'armeabi-v7a'
+//        }
+
+        externalNativeBuild {
+            cmake {
+                targets "nostalgia"
+                arguments "-DCMAKE_BUILD_TYPE=Release" // aby i debug buildy byly rychly
+            }
+        }
+    }
+
+
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include  'armeabi-v7a', 'arm64-v8a' //select ABIs to build APKs for
+            universalApk true //generate an additional APK that contains all the ABIs
+
+        }
+    }
+
+    //project.ext.versionCodes = ['armeabi': 1, 'armeabi-v7a': 2, 'arm64-v8a': 3, 'mips': 5, 'mips64': 6, 'x86': 8, 'x86_64': 9]
+
+
+    productFlavors {
+        lite {
+            resValue "string", "title_activity_main", "Nostalgia.GBC Lite"
+            resValue "string", "app_name", "Nostalgia.GBC Lite"
+
+            applicationId "com.nostalgiaemulators.gbclite"
+            resValue "string", "flavour_package", "com.nostalgiaemulators.gbclite"
+
+        }
+
+        full {
+            resValue "string", "title_activity_main", "Nostalgia.GBC Pro"
+            resValue "string", "app_name", "Nostalgia.GBC Pro"
+
+            applicationId "com.nostalgiaemulators.gbcfull"
+            resValue "string", "flavour_package", "com.nostalgiaemulators.gbcfull"
+
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+    externalNativeBuild {
+        cmake {
+            path file('src/main/jni/CMakeLists.txt')
+        }
+    }
+
+
+}
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    implementation project(':core')
+}

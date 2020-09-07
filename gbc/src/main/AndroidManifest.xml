@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nostalgiaemulators.gbc">
+
+
+    <application
+        android:name="com.nostalgiaemulators.gbc.GbcApplication"
+        tools:ignore="AllowBackup">
+
+        <activity android:name="com.nostalgiaemulators.gbc.GbcGalleryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.nostalgiaemulators.gbc.GbcEmulatorActivity" />
+
+        <activity
+            android:name="com.nostalgiaemulators.gbc.GbcSlotImportActivity"
+            android:label="Slot import">
+
+            <!-- otevirani z filesystemu -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:scheme="file" />
+                <data android:pathPattern=".*\\.ngbcs" />
+            </intent-filter>
+
+            <!-- otevirani z webu -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:scheme="http" />
+                <data android:pathPattern=".*\\.ngbcs" />
+            </intent-filter>
+
+            <!-- otevirani z email programu -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/vnd.gbcnostalgia" />
+                <data android:host="*" />
+                <data android:scheme="content" />
+            </intent-filter>
+
+            <!-- otevirani ze zprasenejch email klientu kteri likviduji mimetype na octet-stream -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/octet-stream" />
+                <data android:host="*" />
+                <data android:scheme="content" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

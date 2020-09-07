@@ -1,0 +1,3 @@
+/Users/hungvu/Downloads/Nostalgia/nes/.cxx/cmake/liteDebug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/hungvu/Downloads/Nostalgia/nes/.cxx/cmake/liteDebug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/hungvu/Downloads/Nostalgia/nes/.cxx/cmake/liteDebug/arm64-v8a/CMakeFiles/nostalgia.dir

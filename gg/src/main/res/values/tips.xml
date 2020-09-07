@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_cheats">$This app supports AR cheat codes. You can find cheats for a number of games at &lt;a href="http://gamehacking.org/?sys=gg">http://gamehacking.org&lt;/a>. A cheat must be entered in the following pattern: 00XXXXXX.</string>
+</resources>

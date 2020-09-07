@@ -1,0 +1,288 @@
+<resources>
+
+    <string name="advanced_users_only">For advanced users only!</string>
+    
+    
+    <string name="send_slot">Share state</string>
+    <string name="send_slot_subject">\%s (\%s)</string>
+    <string name="send_slot_message">Save state for: \%s\nDate: \%s \%s\nThis file is intended for \%s\n\%s</string>
+    <string name="app_name">Emudroid</string>
+    <string name="empty_desc">this component has no textual description</string>
+    <string name="menu_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="exit">Exit</string>
+    <string name="ok">Ok</string>
+    <string name="about">ABOUT</string>
+    <string name="todays_top_apps">TODAY\'S TOP APPS</string>
+    <string name="internet_needed">In the Lite version, this feature is ad-supported and is only available when ads are displayed. Please connect to the internet and try again.</string>
+    
+    <string name="adblocker_installed">In the Lite version, this feature is ad-supported. Please uninstall any ad blocking software or purchase the Pro version if you want to use this feature.</string>
+    
+    <string name="too_slow">We are sorry, the emulator is not responding. Your device\'s performance seems to be too low to run this app.</string>
+    <string name="act_emulator_invalid_cheat">Invalid cheat: \'%s\'</string>
+    <string name="act_emulator_load_game_failed">Failed to load game</string>
+    <string name="act_emulator_save_state_failed">Failed to save state</string>
+    <string name="act_emulator_load_state_failed">Failed to load state</string>
+
+    <!-- REmote controler -->
+    <string name="act_remote_controller_select_server">Select server</string>
+    <string name="act_remote_controller_set_manually">Set server manually</string>
+    <string name="dialog_select_port_title">Select port</string>
+
+    <!-- slot context menu menu -->
+    <string name="act_slot_popup_menu_delete">Erase state</string>
+    <string name="act_slot_popup_menu_send">Share state</string>
+    <string name="act_slot_hint">Long press on item to show pop up menu</string>
+
+    <!-- game -->
+    <string name="game_menu_fds_eject_disk">EJECT DISK</string>
+    <string name="game_menu_fds_insert_disk">INSERT DISK</string>
+    <string name="game_menu_fds_switch_side">SWITCH DISK SIDE</string>
+    <string name="game_menu_reset">RESET</string>
+    <string name="game_menu_load">LOAD STATE</string>
+    <string name="game_menu_save">SAVE STATE</string>
+    <string name="game_menu_cheats">CHEATS</string>
+    <string name="game_menu_screenshot">TAKE SCREENSHOT</string>
+    <string name="game_menu_settings">GAME SETTINGS</string>
+    <string name="game_menu_back_to_past">REWIND</string>
+    <string name="game_zapper_collision">Zapper is in collision with remote controller!</string>
+    <string name="toast_cheats_enabled">Number of cheats enabled: %d</string>
+    <string name="act_game_screenshot_failed">Failed to save screenshot</string>
+    <string name="act_game_screenshot_saved">Screenshot saved to: %s</string>
+
+    <!-- touch controll settingspreferences -->
+    <string name="act_tcs_reset">RESET</string>
+
+    <!-- preferences -->
+    
+    <string name="general_pref">General Preferences</string>
+    <string name="game_pref">Game Preferences</string>
+    <string name="key_pref">Keyboard/Gamepad Preferences</string>
+    <string name="key_profile_pref">Keyboard/Gamepad profile: %s</string>
+    <string name="key_select_profile_pref">Select Gamepad Profile</string>
+    <string name="key_profile_edit">Edit Gamepad Profile</string>
+    <string name="key_profile_select_input_method">Select Input Method</string>
+    <string name="key_profile_new">New profile</string>
+    <string name="game_pref_ui_pal_ntsc">Video Mode</string>
+    <string name="game_pref_ui_pal_ntsc_desc">Try switching in case of graphical glitches</string>
+    <string name="game_pref_ui_timeshift">Allow Rewinding</string>
+    <string name="game_pref_ui_timeshift_desc">Enabling may slow down emulation on some devices</string>
+    <string name="game_pref_ui_vibration">Vibrations</string>
+    <string name="game_pref_ui_vibration_no_vibrator">This device does not have an available vibrator</string>
+    <string name="general_pref_wifi_controlable">Wifi Control</string>
+    <string name="general_pref_smoothing">Image Smoothing</string>
+    <string name="general_pref_wifi_controlable_desc">Allow controlling of app over wifi</string>
+    
+    <string name="general_pref_system_font">System Font</string>
+    <string name="general_pref_system_font_desc">Use default Android font for UI</string>
+    <string name="general_pref_quick_save_load">Quick Save/Load</string>
+    <string name="general_pref_quick_save_load_desc">Double tap to quick-save (right half of screen) or quick-load (left half of screen)</string>
+    <string name="general_pref_controls_opacity">Opacity</string>
+    <string name="general_pref_controls_opacity_desc">Opacity of on-screen controls</string>
+    <string name="general_pref_controls_autohide">Auto-Hide</string>
+    <string name="general_pref_controls_autohide_desc">Hide on-screen controls when using gamepad/keyboard/remote controller</string>
+    <string name="general_pref_fastforward_speed">Fast Forward Speed</string>
+    <string name="general_pref_sound_volume">Sound Volume</string>
+    <string name="general_pref_shader">Shader</string>
+    <string name="general_pref_immersive_mode">Immersive Mode</string>
+    <string name="general_pref_change_working_directory">Change Working Directory</string>
+    <string name="general_pref_default">default</string>
+    <string name="general_pref_copy_content">Copy Content</string>
+    <string name="general_pref_copy_content_desc">When changing working directory, copy files from old directory to new directory</string>
+    <string name="general_pref_reset_to_default">Reset To Default</string>
+        
+    
+    <string name="general_pref_turbo">Turbo Buttons</string>
+    <string name="general_pref_mute">Mute Sound</string>
+    <string name="general_pref_load_sav_files">Load Battery Saves</string>
+    <string name="general_pref_save_sav_files">Save Battery Saves</string>
+    <string name="general_pref_load_sav_files_desc">See Help for more info</string>
+    <string name="general_pref_ddpad">Dynamic D-Pad</string>
+    <string name="general_pref_ddpad_desc">Enable dynamically positioned D-pad</string>
+    <string name="general_pref_ddpad_deactivate">Dynamic D-Pad was deactivated</string>
+    <string name="general_pref_ddpad_activate">In the Lite version of the app, this feature is automatically deactivated when exiting a game. If you want to use the feature without restrictions, purchase the PRO version of the app.</string>
+    <string name="general_pref_ddpad_goto_play">Go to Google Play</string>   
+    
+    <string name="general_pref_fastforward_deactivate">Fast forward button was deactivated</string>
+    <string name="general_pref_screen_layout_deactivate">Screen layout was reset</string>
+    
+    
+    
+    
+    
+    <string name="general_pref_ab_button">A+B Button</string>
+    <string name="general_pref_fastforward_button">Enable FF Button</string>
+    <string name="general_pref_fastforward_toggle">Togglable FF</string>
+    <string name="general_pref_fastforward_toggle_desc">Behavior of FF button (or gamepad key)</string>    
+    <string name="general_pref_fullscreen">Force Fullscreen</string>
+    <string name="game_pref_zapper">Zapper Gun</string>
+    <string name="general_pref_rotation">Orientation</string>
+    <string name="general_pref_quality">Emulation Quality</string>
+    <string name="general_pref_quality_desc">Set to "Low" if you experience lagging</string>
+    <string name="pref_other_settings">Other Settings</string>
+    <string name="pref_general_settings">General Settings</string>
+    <string name="pref_video_settings">Video Settings</string>
+    
+    <string name="pref_touch_settings">Controller Layout</string>
+    <string name="pref_touch_desc">Customize layout of buttons</string>
+    
+     
+    <string name="pref_screen_settings">Game Screen Layout</string>
+    <string name="pref_screen_desc">Customize layout of game screen</string>
+    
+    <string name="pref_keyboard_settings_restore_def">(Reset to defaults)</string>
+    <string name="pref_keyboard_settings_delete_prof">(Delete this profile)</string>
+
+    <string name="pref_keyboard_cannot_change_input_method">Cannot change input method</string>
+    
+    <string-array name="general_pref_rotation_list">
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Sensor</item>
+    </string-array>
+    <string-array name="general_pref_rotation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    
+    <string-array name="general_pref_shader_list">
+        <item>Default</item>
+        <item>Linear</item>
+        <item>Scale2x</item>
+        <item>Scale2xHQ</item>
+        <item>SuperEagle</item>
+        <item>Super2xSaI</item>
+    </string-array>
+    <string-array name="general_pref_shader_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    
+    <string-array name="general_pref_quality_list">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="general_pref_quality_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="press_key">Press a button for: %s</string>
+
+    <!-- gallery -->
+    <string name="act_game_gallery_search_hint">Search</string>
+    <string name="gallery_menu_pref">PREFERENCES</string>
+    <string name="gallery_menu_help">HELP</string>
+    <string name="gallery_menu_wifi_on">WIFI CONTROL ON</string>
+    <string name="gallery_menu_wifi_off">WIFI CONTROL OFF</string>
+    <string name="gallery_menu_remote_control">REMOTE CONTROLLER</string>
+    <string name="gallery_menu_reload">SEARCH DEVICE FOR ROMS</string>
+    <string name="gallery_menu_load_from_dir">SEARCH DIRECTORY FOR ROMS</string>
+    <string name="gallery_file_choosing_long_click">Select a folder by long-pressing on it</string>        
+    <string name="gallery_menu_rate_us">RATE ON GOOGLE PLAY</string>
+    <string name="gallery_menu_recommend">RECOMMEND TO FRIENDS</string>
+    <string name="gallery_zip_search_label">Exploring the zip file.\nWait a minute please.</string>
+    <string name="gallery_sdcard_search_label">Searching for ROMs.\nWait a minute please.</string>
+    <string name="gallery_sd_card_not_mounted">Sorry, no SD card is mounted for write access. If your device is connected to a computer, you need to unplug it.</string>
+    <string name="gallery_start_wifi_control_server">Started listening. Device IP:%s</string>
+    <string name="gallery_stop_wifi_control_server">Stopped listening</string>
+    <string name="gallery_count_of_found_games">Found %d ROMs</string>
+    <string name="gallery_rom_not_found">ROM was deleted.</string>
+    <string name="gallery_rom_not_found_reload">Search ROMs</string>
+    <string name="gallery_start_sip_search_label">Searching archives.\nWait a minute please.</string>
+    <string name="gallery_page_byname">BY NAME</string>
+    <string name="gallery_page_last">LAST INSERTED</string>
+    <string name="gallery_page_last_played">LAST PLAYED</string>
+    <string name="gallery_page_most">MOST PLAYED</string>
+    <string name="gallery_no_roms_found">No ROM found on the device</string>
+
+    <!-- cheat -->
+    <string name="act_cheats_dialog_add_label">CHEAT</string> <!-- nejen game genie -->
+    <string name="act_cheats_dialog_chars_hint">INSERT CHEAT CODE</string>
+    <string name="act_cheats_dialog_desc_hint">INSERT CHEAT DESCRIPTION</string>
+    <string name="act_cheats_dialog_save">SAVE</string>
+
+    <!-- tips dialog -->
+    <string name="tips_dialog_label">HELP</string>
+    <string name="tips_dialog_next">NEXT</string>
+    <string name="tips_dialog_prev">PREV</string>
+
+    <!-- Import Slot -->
+    <string name="act_import_slot_search_label">Searching for the ROM</string>
+    <string name="act_import_slot_search_title">Save state import</string>
+    <string name="act_import_game_ot_found">The ROM for the save state not found</string>
+    <string name="act_import_wrong_format">Invalid file format</string>
+
+    <!-- What's new -->
+    <string name="whats_new_title">What\'s new</string>
+
+    <!-- Rewind -->
+    <string name="time_travel">Rewind</string>
+
+
+    <string name="export_lite_dialog">Importing data from the Lite version. Please wait.</string>
+    <string name="export_lite_ok">Data from the Lite version successfully imported.</string>
+    <string name="export_lite_error">An error has occurred while importing data from the Lite version.</string>
+    <string name="license_fail">License check failed</string>
+    <string name="about_header">
+<![CDATA[<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+</head>
+<body>
+<h3>|app_name| |build|</h3>
+ © 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Aleš&nbsp;Láník, Radek&nbsp;Lžičař |licence|
+<br><br>
+Special thanks to Tony Cima
+
+<h3>Portions</h3>
+<ul>
+|content|
+<li><b>ViewPageIndicator</b>  © Jake Wharton, Patrik Åkerfeldt, Francisco Figueiredo Jr. (<a href="http://www.apache.org/licenses/LICENSE-2.0">license</a>)
+<li><b>ActivitySwitcher</b>  © Robert Heim
+<li><b>VerticalSeekBar</b>  © TechnIx
+<li><b>SeekBarPreference</b>  © Matthew Wiggins (<a href="http://www.apache.org/licenses/LICENSE-2.0">license</a>)
+<li><b>Android-NewPopupMenu</b>  ©  Yuichi. Arai (<a href="http://www.apache.org/licenses/LICENSE-2.0">license</a>)
+<li><b>ACRA</b>  ©  Kevin Gaudin,  Emmanuel Astier (<a href="http://www.apache.org/licenses/LICENSE-2.0">license</a>)
+<li><b>android-file-folder-picker</b>  © Aeesh Joseph (<a href="http://www.apache.org/licenses/LICENSE-2.0">license</a>)
+</ul>
+
+</body>  ]]>
+    </string>
+    <string name="about_content">TODO</string>
+    
+    <string name="export_action">.EXPORT</string>
+    
+     <string name="whats_new_v35">
+<![CDATA[
+<ul>
+<li>dynamic D-pad!! check Help for more info (Pro version only)
+<li>moved Keyboard Preferences to General Preferences
+<li>added default profiles for PS3 and Wiimote controllers
+<li>improved import from Lite to Pro version
+<li>fixed SD card detection
+<li>fixed PS3 controller support
+<li>fixed Adreno 320 GPU compatibility
+<li>fixed Vivante CG 4000 GPU compatibility
+<li>fixed many minor bugs
+</ul>
+
+Special thanks go to:<br>Katherine, Tony, Derek, Mitchell, Kevin, Jerry, Jakub and John
+]]>
+    </string>
+
+
+
+</resources>

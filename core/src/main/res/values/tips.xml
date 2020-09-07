@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="help_dynamic_dpad">Enable the dynamic D-pad touch control option to provide a more intuitive control experience.  When enabled, tap the screen wherever you feel most comfortable to activate the dynamic D-pad, then drag your finger in the direction you want to move.  To enable the dynamic D-pad, go to \"General Preferences\" -> \"Dynamic D-Pad\".</string>
+    <string name="help_video_mode">If you experience graphical glitches while playing a game, try switching the video mode from NTSC to PAL or vice versa. You can do this under \"Game Settings\" -> \"Video Mode\".</string>
+    <string name="help_customize_controll">Customize the layout of the virtual controller to best fit your playing style. You can adjust the size and position of each button to suit your needs. Go to \"General Preferences\" -> \"Controller Layout\".</string>
+    <string name="help_speed">If you experience lag, try adjusting the quality of the emulation under \"General Preferences\" -> \"Emulation Quality\". The lower the quality the faster the emulator runs.</string>
+    <string name="help_cheats">$There are two types of cheats you can use in this app: Game Genie and so-called raw cheats. You can find cheats for a number of games at &lt;a href="http://gamehacking.org/?sys=nes">http://gamehacking.org&lt;/a> or &lt;a href="http://gamegenie.com/cheats/gamegenie/nes/">http://gamegenie.com&lt;/a>. The allowed patterns are XXXX:XX or XXXX?XX:XX for raw cheats, and XXXXXX or XXXXXXXX for Game Genie.</string>
+    <string name="help_state_share_detail">You can share a saved state via e-mail, Skype etc. by long-pressing on the respective slot.</string>
+    <string name="help_state_share">You can share a saved state via e-mail, Skype etc. by long-pressing on the respective slot on the \"Load State\" or \"Save State\" screen.</string>
+    <string name="help_sav_files">In order to import a battery save file (.sav) from another emulator, put the save file in the same directory as the game itself and make sure it has the same name (except for the extension). You need to check \"Load SAV Files\" in the preferences, temporarily uncheck \"Save SAV Files\" and RESET the game. Note that the file names are case-sensitive. Importing of SAV files only works for unzipped ROMs.</string>
+    
+    
+</resources>

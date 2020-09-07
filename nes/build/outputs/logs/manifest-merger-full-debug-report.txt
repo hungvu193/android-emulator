@@ -1,0 +1,443 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+MERGED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-140:12
+MERGED from [:filepicker] /Users/hungvu/Downloads/Nostalgia/filepicker/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1.1] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/a17aa08f7060f81c66e8df94b1245a2c/jetified-library-2.4.1.1/AndroidManifest.xml:3:1-9:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:6:5-87:19
+MERGED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-138:19
+MERGED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:5-138:19
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:27:5-48:19
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:27:5-48:19
+MERGED from [androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-41
+	tools:ignore
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:7:9-35
+	android:largeHeap
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:9-33
+	android:icon
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-43
+	android:allowBackup
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-35
+	android:theme
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:9-40
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:6:18-74
+meta-data#android.max_aspect
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:9:9-11:35
+	android:value
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:11:13-32
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:10:13-46
+meta-data#svnversion
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:13:9-15:51
+	android:value
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:15:13-48
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:14:13-38
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:17:9-19:49
+	android:value
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:19:13-46
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:18:13-58
+activity#com.nostalgiaemulators.nes.NesGalleryActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:21:9-28:20
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:22:13-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:26:27-74
+activity#com.nostalgiaemulators.nes.NesEmulatorActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:30:9-35:20
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:32:13-45
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:33:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:31:13-74
+activity#com.nostalgiaemulators.nes.NesSlotImportActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:37:9-85:20
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:39:13-40
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:40:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:38:13-76
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.nness+data:scheme:file
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:43:13-51:29
+action#android.intent.action.VIEW
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:45:27-73
+data
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:17-48
+	android:host
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:48:23-39
+	android:scheme
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:49:23-44
+	android:pathPattern
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:50:23-55
+	android:mimeType
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:47:23-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.nness+data:scheme:http
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:54:13-62:29
+category#android.intent.category.BROWSABLE
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:56:17-78
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:56:27-75
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/vnd.nesnostalgia+data:scheme:content
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:65:13-73:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/octet-stream+data:scheme:content
+ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml:76:13-84:29
+uses-sdk
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+MERGED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-12:41
+MERGED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-12:41
+MERGED from [:filepicker] /Users/hungvu/Downloads/Nostalgia/filepicker/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:filepicker] /Users/hungvu/Downloads/Nostalgia/filepicker/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:21:5-23:41
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1.1] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/a17aa08f7060f81c66e8df94b1245a2c/jetified-library-2.4.1.1/AndroidManifest.xml:8:5-43
+MERGED from [fr.avianey.com.viewpagerindicator:library:2.4.1.1] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/a17aa08f7060f81c66e8df94b1245a2c/jetified-library-2.4.1.1/AndroidManifest.xml:8:5-43
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/nes/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-16:36
+	android:glEsVersion
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-41
+	android:required
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-33
+uses-feature#android.hardware.touchscreen
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-52
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:22-63
+uses-permission#android.permission.INTERNET
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-67
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:22-73
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:5-68
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:25:5-68
+MERGED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:22-65
+provider#androidx.core.content.FileProvider
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:9-58:20
+	android:grantUriPermissions
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-47
+	android:authorities
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:13-60
+	android:exported
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-57:53
+	android:resource
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:17-50
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:17-67
+uses-library#org.apache.http.legacy
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:40
+	android:required
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-50
+activity#com.nostalgiaemulators.framework.ui.gamegallery.SlotSelectionActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:68:9-70:48
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:70:13-45
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:69:13-97
+activity#com.nostalgiaemulators.framework.base.OpenGLTestActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:71:9-75:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:74:13-45
+	android:exported
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:73:13-37
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:75:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:72:13-84
+activity#com.nostalgiaemulators.framework.base.RestarterActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:76:9-82:45
+	android:process
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:13-41
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:80:13-45
+	android:exported
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:78:13-59
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:82:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:77:13-83
+activity#com.nostalgiaemulators.framework.ui.advertising.AppWallActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:9-86:48
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:86:13-45
+	android:exported
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:13-91
+activity#com.nostalgiaemulators.framework.ui.remotecontroller.RemoteControllerActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:87:9-91:45
+	android:screenOrientation
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:90:13-50
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:89:13-46
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:91:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:88:13-105
+activity#com.nostalgiaemulators.framework.ui.preferences.GeneralPreferenceActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:98:9-102:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:100:13-49
+	android:theme
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:101:13-45
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:102:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:99:13-101
+activity#com.nostalgiaemulators.framework.ui.preferences.GamePreferenceActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:103:9-107:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:105:13-46
+	android:theme
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:106:13-45
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:107:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:104:13-98
+activity#com.nostalgiaemulators.framework.ui.preferences.KeyboardSettingsActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:108:9-112:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:110:13-45
+	android:theme
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:111:13-45
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:112:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:109:13-100
+activity#com.nostalgiaemulators.framework.ui.cheats.CheatsActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:113:9-116:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:115:13-35
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:116:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:114:13-85
+activity#com.nostalgiaemulators.framework.ui.social_net.FacebookPictureActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:117:9-120:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:119:13-31
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:120:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:118:13-98
+activity#com.nostalgiaemulators.framework.ui.preferences.TouchControllerSettingsActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:121:9-124:45
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:123:13-46
+	tools:replace
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:124:13-42
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:122:13-107
+activity#com.nostalgiaemulators.framework.ui.preferences.ScreenViewPortSettingsActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:125:9-128:49
+	android:label
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:128:13-46
+	android:exported
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:127:13-37
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:126:13-106
+activity#com.coderplus.filepicker.FilePickerActivity
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:131:9-80
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:131:19-77
+activity#org.acra.CrashReportDialog
+ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:132:9-137:59
+	android:excludeFromRecents
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:134:13-46
+	android:launchMode
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:136:13-48
+	android:theme
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:137:13-56
+	android:finishOnTaskLaunch
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:135:13-46
+	android:name
+		ADDED from [:core] /Users/hungvu/Downloads/Nostalgia/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:133:13-54
+activity#org.acra.dialog.CrashReportDialog
+ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:28:9-34:59
+	android:process
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:33:13-36
+	android:excludeFromRecents
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:30:13-46
+	android:launchMode
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:32:13-48
+	android:theme
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:34:13-56
+	android:finishOnTaskLaunch
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:29:13-61
+service#org.acra.sender.SenderService
+ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:36:9-40:39
+	android:process
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:40:13-36
+	android:exported
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:38:13-37
+	android:permission
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:39:13-69
+	android:name
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:37:13-57
+provider#org.acra.attachment.AcraContentProvider
+ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:42:9-47:39
+	android:process
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:47:13-36
+	android:grantUriPermissions
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:46:13-47
+	android:authorities
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:44:13-56
+	android:exported
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [ch.acra:acra:4.11] /Users/hungvu/.gradle/caches/transforms-2/files-2.1/e81b482b95139cd021cd3f6f4dbf9348/jetified-acra-4.11/AndroidManifest.xml:43:13-67

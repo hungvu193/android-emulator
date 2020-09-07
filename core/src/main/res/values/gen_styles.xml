@@ -1,0 +1,40 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <style name="GameDialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+       
+        <item name="android:windowAnimationStyle">@style/GameDialogAnimation</item>        
+    </style>
+    
+    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:background">@color/dialog_surround_color</item>
+        <item name="android:windowAnimationStyle">@style/GameDialogAnimation</item>
+    </style>
+    
+    <style name="HintTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:background">@null</item>
+        <item name="android:windowAnimationStyle">@style/GameDialogAnimation</item>
+    </style>
+    
+    <style name="GameDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+</resources>

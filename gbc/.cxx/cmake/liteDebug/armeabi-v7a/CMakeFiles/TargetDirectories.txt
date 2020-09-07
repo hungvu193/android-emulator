@@ -1,0 +1,3 @@
+/Users/hungvu/Downloads/Nostalgia/gbc/.cxx/cmake/liteDebug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/hungvu/Downloads/Nostalgia/gbc/.cxx/cmake/liteDebug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/hungvu/Downloads/Nostalgia/gbc/.cxx/cmake/liteDebug/armeabi-v7a/CMakeFiles/nostalgia.dir

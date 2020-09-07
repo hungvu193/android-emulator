@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/hungvu/Downloads/Nostalgia/gg/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/hungvu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hungvu/Downloads/Nostalgia/gg/.cxx/cmake/fullDebug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "nostalgia-Release-arm64-v8a": {
+      "artifactName": "nostalgia",
+      "buildCommand": "/Users/hungvu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hungvu/Downloads/Nostalgia/gg/.cxx/cmake/fullDebug/arm64-v8a --target nostalgia",
+      "abi": "arm64-v8a",
+      "output": "/Users/hungvu/Downloads/Nostalgia/gg/build/intermediates/cmake/fullDebug/obj/arm64-v8a/libnostalgia.so"
+    }
+  }
+}

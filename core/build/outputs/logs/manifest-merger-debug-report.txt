@@ -1,0 +1,245 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+	package
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:1-151:12
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:1:11-69
+	android:largeHeap
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:5:5-29
+	android:installLocation
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:4:5-35
+uses-feature#0x00020000
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:8:5-10:36
+	android:glEsVersion
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:9:9-41
+	android:required
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:10:9-33
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:17:9-52
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:24:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:26:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:28:22-73
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:30:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:32:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:34:22-65
+application
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:38:5-149:19
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:43:9-41
+	tools:ignore
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:39:9-48
+	android:largeHeap
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:41:9-33
+	android:icon
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:42:9-43
+	android:allowBackup
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:40:9-35
+	android:theme
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:44:9-40
+provider#androidx.core.content.FileProvider
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:46:9-55:20
+	android:grantUriPermissions
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:50:13-47
+	android:authorities
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:48:13-60
+	android:exported
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:47:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:51:13-53:53
+	android:resource
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:53:17-50
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:52:17-67
+uses-library#org.apache.http.legacy
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:60:9-62:40
+	android:required
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:61:13-50
+activity#com.nostalgiaemulators.framework.ui.gamegallery.SlotSelectionActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:69:9-71:48
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:71:13-45
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:70:13-97
+activity#com.nostalgiaemulators.framework.base.OpenGLTestActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:73:9-77:45
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:76:13-45
+	android:exported
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:75:13-37
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:77:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:74:13-84
+activity#com.nostalgiaemulators.framework.base.RestarterActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:78:9-84:45
+	android:process
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:83:13-41
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:82:13-45
+	android:exported
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:81:13-37
+	android:configChanges
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:80:13-59
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:84:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:79:13-83
+activity#com.nostalgiaemulators.framework.ui.advertising.AppWallActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:86:9-89:48
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:89:13-45
+	android:exported
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:87:13-91
+activity#com.nostalgiaemulators.framework.ui.remotecontroller.RemoteControllerActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:92:9-96:45
+	android:screenOrientation
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:95:13-50
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:94:13-46
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:96:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:93:13-105
+activity#com.nostalgiaemulators.framework.ui.preferences.GeneralPreferenceActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:103:9-107:44
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:105:13-49
+	android:theme
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:106:13-45
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:107:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:104:13-101
+activity#com.nostalgiaemulators.framework.ui.preferences.GamePreferenceActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:109:9-113:45
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:111:13-46
+	android:theme
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:112:13-45
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:113:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:110:13-98
+activity#com.nostalgiaemulators.framework.ui.preferences.KeyboardSettingsActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:115:9-119:45
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:117:13-45
+	android:theme
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:118:13-45
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:119:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:116:13-100
+activity#com.nostalgiaemulators.framework.ui.cheats.CheatsActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:121:9-124:45
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:123:13-35
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:124:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:122:13-85
+activity#com.nostalgiaemulators.framework.ui.social_net.FacebookPictureActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:126:9-129:45
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:128:13-31
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:129:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:127:13-98
+activity#com.nostalgiaemulators.framework.ui.preferences.TouchControllerSettingsActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:130:9-133:45
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:132:13-46
+	tools:replace
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:133:13-42
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:131:13-107
+activity#com.nostalgiaemulators.framework.ui.preferences.ScreenViewPortSettingsActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:135:9-138:48
+	android:label
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:138:13-46
+	android:exported
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:136:13-106
+activity#com.coderplus.filepicker.FilePickerActivity
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:141:9-80
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:141:19-77
+activity#org.acra.CrashReportDialog
+ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:142:9-147:59
+	android:excludeFromRecents
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:144:13-46
+	android:launchMode
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:146:13-48
+	android:theme
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:147:13-56
+	android:finishOnTaskLaunch
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:145:13-46
+	android:name
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml:143:13-54
+uses-sdk
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		ADDED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml
+		INJECTED from /Users/hungvu/Downloads/Nostalgia/core/src/main/AndroidManifest.xml

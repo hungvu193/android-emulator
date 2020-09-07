@@ -1,0 +1,5 @@
+<resources>
+
+    <style name="PrefTheme" parent="Theme.AppCompat" />
+
+</resources>

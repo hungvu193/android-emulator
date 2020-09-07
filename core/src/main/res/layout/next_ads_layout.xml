@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/next_ads_view"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/ads_color"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/next_ads_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+         />
+
+    <TextView
+        android:id="@+id/next_ads_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/next_ads_icon"
+        android:textColor="@color/main_color"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/next_ads_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/next_ads_title"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/next_ads_icon"
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="1px"
+        android:text="Advertisement"
+        android:textColor="#8000"
+        android:textSize="8sp" />
+    
+
+</RelativeLayout>
