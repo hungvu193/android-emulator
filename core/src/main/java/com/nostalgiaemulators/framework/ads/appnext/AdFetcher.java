@@ -17,13 +17,13 @@
 
 package com.nostalgiaemulators.framework.ads.appnext;
 
-import java.util.ArrayList;
-import java.util.Random;
-
 import android.os.AsyncTask;
 import android.util.Log;
 
 import com.nostalgiaemulators.framework.utils.UrlDownloader;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 public class AdFetcher {
 
@@ -74,16 +74,13 @@ public class AdFetcher {
 			json = sLastJson;
 			if (shouldFetchNewAds) {
 				int numAds = 5;
-				boolean useImageImpressionReporting = SHOW_ICON;
 				String url = RequestUrlBuilder.buildUrl(placementId, numAds,
-						useImageImpressionReporting);
-				if (shouldFetchNewAds) {
-					json = UrlDownloader.download(url);
-					if (json != null) {
-						sLastFetchTime = System.currentTimeMillis();
-					}
-					sLastJson = json;
+						SHOW_ICON);
+				json = UrlDownloader.download(url);
+				if (json != null) {
+					sLastFetchTime = System.currentTimeMillis();
 				}
+				sLastJson = json;
 			}
 
 			if (canFetchInhouse) {

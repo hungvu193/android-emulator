@@ -84,8 +84,8 @@ public class AdUtil {
 					public void onClick(View v) {
 						Context context = v.getContext();
 						Object ad = v.getTag();
-						if (context != null && context instanceof Activity
-								&& ad != null && ad instanceof Ad) {
+						if (context instanceof Activity
+								&& ad instanceof Ad) {
 							((Ad) ad).open((Activity) context);
 						}
 					}

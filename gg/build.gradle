@@ -6,7 +6,7 @@ if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     flavorDimensions "default"
 
     lintOptions {
@@ -27,7 +27,7 @@ android {
     defaultConfig {
         applicationId "com.nostalgiaemulators.gg"
         minSdkVersion 15
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 111
         versionName "2.0.9"
 
